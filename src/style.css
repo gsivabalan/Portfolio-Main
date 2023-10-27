@@ -815,3 +815,7 @@ html {
     flex-direction: column;
   }
 }
+
+.label-spacing {
+  margin-right: 10px; 
+}

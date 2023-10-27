@@ -13,16 +13,19 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
         </Card.Text>
-        {props.urls.map((url, index) => (
+        {props.links && props.links.map((link, index) => (
           <Button
             key={index}
             variant="primary"
-            href={url.url}
+            href={link.url}
             target="_blank"
             className="download-button"
           >
             <BiLinkExternal /> &nbsp;
-            {url.label}
+            {link.label}
+            {index < props.links.length - 1 && (
+            <span className="label-spacing"> </span> 
+          )}
           </Button>
         ))}
       </Card.Body>

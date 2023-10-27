@@ -16,16 +16,15 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           {PROJECTS.map((project, index) => (
             <Col md={4} className="project-card" key={index}>
-            <ProjectCard
-              imgPath={project.image}
-              technologyUsed={project.technologyUsed}
-              isBlog={false}
-              title={project.name}
-              description={project.description}
-              urls={project.urls} 
-            />
-          </Col>
-          
+              <ProjectCard
+                imgPath={project.image}
+                technologyUsed={project.technologyUsed}
+                isBlog={false}
+                title={project.name}
+                description={project.description}
+                links={project.links} // Change 'urls' to 'links'
+              />
+            </Col>
           ))}
         </Row>
       </Container>
