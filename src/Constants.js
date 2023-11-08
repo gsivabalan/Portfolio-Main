@@ -3,9 +3,30 @@ import YOUTUBECLONE from "./Assets/Projects/YoutubeClone.png";
 import MONEY_MANAGER from "./Assets/Projects/MoneyManager.jpg";
 import DIET_APP from "./Assets/Projects/Diet Application.png";
 import NODE_EXPRESS_JS from "./Assets/Projects/nodeexpressjs.webp";
-
+import HOSPITALS from "./Assets/Projects/Hospitals.png";
+import Tools_Store from "./Assets/Projects/Tools.png";
 export const PROJECTS = [
   
+  {
+    image: HOSPITALS,
+    name: "Hospitals list",
+    technologyUsed: "Authentication,Register, CRUD, Javascript, HTML and CSS",
+    description: "Hospitals lists and informations",
+    links: [
+      {
+        label: "GitHub FE",
+        url: "https://github.com/gsivabalan/hospital-frontend",
+      },
+      {
+        label: "GitHub BE",
+        url: "https://github.com/gsivabalan/hospital-backend",
+      },
+      {
+        label: "Hosted",
+        url: "https://hospitals-details-4382a4.netlify.app/",
+      }
+    ]
+  },
   {
     image: YOUTUBECLONE,
     name: "Clone Youtube",
@@ -19,6 +40,26 @@ export const PROJECTS = [
       {
         label: "Hosted",
         url: "https://tube-clone-219cc1.netlify.app/",
+      }
+    ]
+  },
+  {
+    image: Tools_Store,
+    name: "Tools Store Management",
+    technologyUsed: "Authentication, CRUD, Javascript, HTML and CSS",
+    description: "Tools Storing Management and their functionality",
+    links: [
+      {
+        label: "GitHub FE",
+        url: "https://github.com/gsivabalan/Tools-store-frontend",
+      },
+      {
+        label: "GitHub BE",
+        url: "https://github.com/gsivabalan/Tools-store-backend",
+      },
+      {
+        label: "Hosted",
+        url: "https://tools-store-225189.netlify.app/",
       }
     ]
   },
