@@ -5,6 +5,8 @@ import DIET_APP from "./Assets/Projects/Diet Application.png";
 import NODE_EXPRESS_JS from "./Assets/Projects/nodeexpressjs.webp";
 import HOSPITALS from "./Assets/Projects/Hospitals.png";
 import Tools_Store from "./Assets/Projects/Tools.png";
+import CHATIO from "./Assets/Projects/CHATIO.png";
+import PAYMENT from "./Assets/Projects/PAYMENT.png";
 export const PROJECTS = [
   
   {
@@ -24,6 +26,46 @@ export const PROJECTS = [
       {
         label: "Hosted",
         url: "https://hospitals-details-4382a4.netlify.app/",
+      }
+    ]
+  },
+  {
+    image: PAYMENT,
+    name: "Payment stripe",
+    technologyUsed:  "Javascript, HTML and CSS,react-bootstrap,react-redux, API, checkout, Stripes,  ",
+    description: "we can order food and add to cart then proceed to checkout for payment",
+    links: [
+      {
+        label: "GitHub FE",
+        url: "https://github.com/gsivabalan/Payment-Integration-Frontend",
+      },
+      {
+        label: "GitHub BE",
+        url: "https://github.com/gsivabalan/Payment-Integration-Backend",
+      },
+      {
+        label: "Hosted",
+        url: "https://payment-integration-4587e3.netlify.app/",
+      }
+    ]
+  },
+  {
+    image: CHATIO,
+    name: "Chat app",
+    technologyUsed:  "Javascript, HTML and CSS, API, react-router-dom, query-string, socket.io-client, expressjs, ",
+    description: "Real Time Chatting App using React,Socket Io and Express JS",
+    links: [
+      {
+        label: "GitHub FE",
+        url: "https://github.com/gsivabalan/chat-frontend",
+      },
+      {
+        label: "GitHub BE",
+        url: "https://github.com/gsivabalan/chat-backend",
+      },
+      {
+        label: "Hosted",
+        url: "https://chat-io-e0b810.netlify.app/",
       }
     ]
   },
