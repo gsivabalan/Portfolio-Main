@@ -24,7 +24,7 @@ function Home() {
               </h1>
 
               <p className="heading-description blockquote">
-               Full-Stack Developer | Learned @GUVI GEEK & Certified | 1-Year Experience Backend Support programmer @Verizon Project in TCS..
+               Entry-level Full Stack Developer | Learned @GUVI GEEK & Certified | 1 Year Experience Backend Support programmer @Verizon Project in TCS..
               </p>
 
               <div className="heading-type">

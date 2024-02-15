@@ -49,26 +49,26 @@ export const PROJECTS = [
       }
     ]
   },
-  {
-    image: CHATIO,
-    name: "Chat app",
-    technologyUsed:  "Javascript, HTML and CSS, API, react-router-dom, query-string, socket.io-client, expressjs, ",
-    description: "Real Time Chatting App using React,Socket Io and Express JS",
-    links: [
-      {
-        label: "GitHub FE",
-        url: "https://github.com/gsivabalan/chat-frontend",
-      },
-      {
-        label: "GitHub BE",
-        url: "https://github.com/gsivabalan/chat-backend",
-      },
-      {
-        label: "Hosted",
-        url: "https://chat-io-e0b810.netlify.app/",
-      }
-    ]
-  },
+  // {
+  //   image: CHATIO,
+  //   name: "Chat app",
+  //   technologyUsed:  "Javascript, HTML and CSS, API, react-router-dom, query-string, socket.io-client, expressjs, ",
+  //   description: "Real Time Chatting App using React,Socket Io and Express JS",
+  //   links: [
+  //     {
+  //       label: "GitHub FE",
+  //       url: "https://github.com/gsivabalan/chat-frontend",
+  //     },
+  //     {
+  //       label: "GitHub BE",
+  //       url: "https://github.com/gsivabalan/chat-backend",
+  //     },
+  //     {
+  //       label: "Hosted",
+  //       url: "https://chat-io-e0b810.netlify.app/",
+  //     }
+  //   ]
+  // },
   {
     image: YOUTUBECLONE,
     name: "Clone Youtube",
